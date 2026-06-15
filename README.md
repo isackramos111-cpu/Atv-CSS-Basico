@@ -32,6 +32,8 @@ Sim, mas há uma exceção: **os textos e imagens de conteúdo**. Você pode (e 
 
 O que **não pode mudar** são as **tags, IDs e classes** — esses são os "ganchos" que o seu CSS vai usar.
 
+Mas se for mudar ou adicionar mais tags HTML, saiba o que está mudando e adicione o CSS equivalente.
+
 ### 3. Encontre imagens
 Procure imagens do seu personagem na internet (arte oficial, fanart com crédito, ou crie a sua).
 Substitua os endereços das imagens no HTML pelas imagens que você encontrou.
@@ -47,8 +49,8 @@ Siga os requisitos abaixo.
 Você **precisa** usar todas as propriedades abaixo no seu CSS. Marque cada uma conforme for completando:
 
 ### Cores
-- [ ] `color` — cor do texto em pelo menos 3 elementos diferentes
-- [ ] `background-color` — cor de fundo em pelo menos 3 elementos diferentes
+- [ ] `color` — cor do texto de todos os elementos
+- [ ] `background-color` — cor de fundo de todos os elementos
 
 ### Fontes
 - [ ] `font-family` — escolha uma fonte para a página (pode usar Google Fonts!)
@@ -56,15 +58,15 @@ Você **precisa** usar todas as propriedades abaixo no seu CSS. Marque cada uma 
 - [ ] `font-weight` — use negrito (`bold`) em pelo menos um elemento
 
 ### Bordas
-- [ ] `border` — adicione borda em pelo menos 2 elementos
+- [ ] `border` — adicione borda de todos os elementos
 - [ ] `border-radius` — deixe algum elemento com cantos arredondados
 
 ### Espaçamento
-- [ ] `margin` — espaço externo em pelo menos 3 elementos
-- [ ] `padding` — espaço interno em pelo menos 3 elementos
+- [ ] `margin` — espaço externo de todos os elementos
+- [ ] `padding` — espaço interno de todos os elementos
 
 ### Tamanho
-- [ ] `width` — defina a largura de pelo menos 2 elementos
+- [ ] `width` — defina a largura de todos os elementos
 
 ---
 
@@ -93,22 +95,10 @@ Quer ir além? Tente implementar:
 
 ## Como entregar
 
-1. Crie um repositório no GitHub com o nome `ficha-personagem-seuNome`
+1. Crie um repositório no GitHub com o nome `ficha-personagem-seuNome` ou faça um fork do repositório do professor
 2. Faça o upload dos dois arquivos: `ficha-personagem.html` e `estilo.css`
-3. Ative o **GitHub Pages**: Settings → Pages → Source: main / root
-4. Envie o link do repositório **e** o link do site publicado
+3. Envie o link do repositório no classroom
 
----
-
-## Critérios de avaliação
-
-| Critério | Pontos |
-|---|---|
-| Todos os requisitos obrigatórios aplicados | 5,0 |
-| Visual coerente com o personagem escolhido | 2,0 |
-| Organização e legibilidade do CSS (comentários, espaçamento) | 1,5 |
-| Entrega correta via GitHub com Pages ativo | 1,5 |
-| **Total** | **10,0** |
 
 ---
 
